@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(151, 238, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+header {    
+    background-image: linear-gradient(to bottom, rgb(69, 205, 69), rgb(100, 154, 87));
+    color: white;
+    margin: 0px 0px 0px 0px;
+    height: auto;    
+}
+header h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    margin: 0px 0px 0px 0px;
+    background-color: green;
+    color: white;
+    height: 40px;
+}
+
+p {
+    margin: 0px 0px 0px 0px;
+    padding-top: 0px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+    }
+
+nav {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    padding: 40px 20px 5px 15px;   
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;   /* Cria um ESPAÇAMENTO maior entre os links */
+}
+nav a:hover {
+    text-decoration: underline; /*  Quando o mouse passa em cima deixa um sublinhado */
+}
+
+main {
+    height: auto;
+    width: auto;
+    margin: 1px 70px 15px 70px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 5px rgb(210, 210, 210);
+}
+
+div {
+    background-color: rgb(130, 210, 130);
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+div > p {
+    padding: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+
+}
+
+h3 {
+    background-image: linear-gradient(to right, rgb(167, 237, 167), white);
+    padding-left: 8px;
+}
+
+/* para centralizar imagens na tela será necessário mudar o DISPLAY. Esse ajuste MEXE na Tag <picture>*/
+img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;  /* Sempre será mostrado 90% da imagem não importa o tamanho da tela */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Centralizando a tabela */
+table {
+    margin-left: auto;
+    margin-right: auto;
+    /* Optional: Set a width if needed */
+    width: 80%;
+    padding-left: 50px;
+  }
+
+/* Centralizar o video */
+video {
+    display: block;
+    margin: 20px auto 5px auto;
+    width: 95%;
+    /* border: solid; */
+}
+
+.alinharcentro {
+    text-align: center;
+}
+.ajustediv {
+    background-color: green;
+    color: white;
+    font-weight: bold; 
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 10px;
+}
+.fonteDroid {
+    font-family: DroidRegular;
+    color: green;
+}
+.esverdear {
+    color: green;
+}

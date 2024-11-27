@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda personalizada</title>
+    <style>
+        .borda {
+           text-align: center;
+           border: 20px solid black; /* LINHA OBRIGATÓRIA para criação de borda personalizada */
+           padding: 10px;
+           
+           /* Origem da imagem */
+           border-image-source: url('imagens/borda_decorativa.png');
+           
+           /* Fatiamento da imagem */
+           border-image-slice: 27;
+
+           border-image-repeat: repeat;
+           /* border-image-repeat: stretch; estica a borda */
+
+           /* É possível usa Shorthand NA SEGUINTE ORDEM*/
+           border-image: url('imagens/borda_decorativa.png') 27 repeat;
+
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1 class="borda"> Olá! Mundo. </h1>
+    <hr>
+    <h2>configuração de Style</h2>
+    <pre>
+    &lt;style>
+        .borda {
+            text-align: center;
+            border: 20px solid black; <b style="color: green;">/* LINHA OBRIGATÓRIA para criação de borda personalizada */</b>
+            padding: 10px;
+            
+            <b style="color: green;">/* Origem da imagem */</b>
+            border-image-source: url('imagens/borda_decorativa.png');
+            
+            <b style="color: green;">/* Fatiamento da imagem */</b>
+            border-image-slice: 27;
+
+            border-image-repeat: repeat;
+            <b style="color: green;">/* border-image-repeat: stretch; estica a borda */</b>
+
+            <b style="color: green;">/* É possível usa Shorthand NA SEGUINTE ORDEM*/</b>
+            border-image: url('imagens/borda_decorativa.png') 27 repeat;
+        }            
+    &lt;/style>
+    </pre>
+    <h2>Código HTML</h2>
+    &lt;h1 class="borda"> Olá! Mundo. lt/h1>
+    
+</body>
+</html>
